@@ -15,7 +15,7 @@ const generateNumbers = (amount, from, to) => {
   
 const listOfNumbers = generateNumbers(10, 50, 100);
 console.log(listOfNumbers);
-*/
+
 
 const ourCar = {
     type: 'Nissan',
@@ -26,6 +26,7 @@ const ourCar = {
 }
 
 console.log(ourCar);
+*/
 
 let globalId = 1;
 
@@ -37,7 +38,7 @@ const createMonster = (id, name, superpower, area) => ({
         area,
 });
 
-const elder = createMonster(5, 'Elder', 'Intellegence', 'Cave');
+/*const elder = createMonster(5, 'Elder', 'Intellegence', 'Cave');
 const youger = createMonster(3, 'Young', 'Smart', 'City');
 
 console.log(elder.name);
@@ -52,5 +53,6 @@ for (const key in elder) {
 
 const ktulhu = elder;
 ktulhu.ability = 'Kill';
-delete ktulhu.ability;
+delete ktulhu.ability; 
 console.log(ktulhu, elder);
+*/
